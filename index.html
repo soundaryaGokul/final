@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plan a Trip!!!</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="root">
+      <header>
+        <div>
+          Book now to get exciting travel deals. Upto 40% off on credit card
+          payments
+        </div>
+        <div id="timer"></div>
+      </header>
+
+      <section id="menu">
+        <ul>
+          <li><a class="weather-menu">WEATHER</a></li>
+          <li><a class="destinations-menu">DESTINATIONS</a></li>
+          <li><a class="quote-menu">GET A QUOTE</a></li>
+        </ul>
+      </section>
+
+      <section id="welcome-content">
+        <div class="planTripImg"></div>
+        <div class="planTripContent">
+          <div>
+            Life is Short <br />
+            and the world is wide!
+          </div>
+          <div>
+            Stay at the comfort of your homes and book a trip to travel <br />
+            after the post pandemic era.
+          </div>
+          <button>PLAN A TRIP</button>
+        </div>
+      </section>
+
+      <section id="weather-channel">
+        <div class="weather-channel-header">THE WEATHER CHANNEL</div>
+        <div class="weather-container"></div>
+      </section>
+
+      <section id="destionations">
+        <div class="dest-header">Featured Destinations</div>
+        <div id="dynamic-dest"></div>
+      </section>
+
+      <section id="promo-content">
+        <div class="promo-img">
+          <div class="img-content">
+            <div>PLAN A TRIP</div>
+            <div>Make your vacation the most<br />memorable one</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="getQuoteContainer">
+        <h1>Travelling as a group? Get a Quote</h1>
+        <form id="quote-form">
+          <div class="field-container">
+            <div>Your Name</div>
+            <input type="text" id="name" />
+            <div class="nameError"></div>
+          </div>
+          <div class="field-container">
+            <div>Contact No</div>
+            <input type="tel" id="phone" />
+            <div class="phoneError"></div>
+          </div>
+          <div class="field-container">
+            <div>Email</div>
+            <input type="text" id="email" />
+            <div class="emailError"></div>
+          </div>
+          <div id="success"></div>
+          <button type="button" id="submitbutton">SUBMIT</button>
+        </form>
+      </section>
+
+      <footer>  
+        <div class="footer-content">
+          <h1>Tripzone</h1>
+          <ul>
+            <li>About</li>
+            <li>Awards</li>
+            <li>Contact Us</li>
+            <li>Feedback</li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h1>Main Offices</h1>
+          <ul>
+            <li>The United States</li>
+            <li>India</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h1>Sub Offices</h1>
+          <ul>
+            <li>Australia</li>
+            <li>England</li>
+            <li>France</li>
+            <li>Germany</li>
+          </ul>
+        </div>
+        <div class="disclaimer-content">
+          <h1>Disclaimer</h1>
+          <p>This layout is created as part of Sirius UI Recruitments. All the above content has no direct relation with Sirius business.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
