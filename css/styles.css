@@ -265,3 +265,110 @@ footer .disclaimer-content {
     margin-right: 105px;
 }
 
+@media screen and (max-width: 688px) and (min-width: 300px) {
+    header {
+        margin: 0;
+    }
+    #menu ul {
+        list-style-type: none;
+        margin: 25px 0;
+        width: 100%;
+        padding: 0;
+    }
+    #menu li a {
+        font-size: 14px;
+    }
+    #menu ul li:first-child {
+        padding-left: 15px;
+        width: 30%;
+    }
+    #menu ul li {
+        padding-left: 35px;
+        width: 33%;
+    }
+    #welcome-content {
+        display: block;
+        margin: 0;
+    }
+    .planTripImg {
+        width: 100%;
+    }
+    .planTripContent {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .planTripContent div:nth-child(2) {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    button {
+        margin-bottom: 20px;
+    }
+    .city-container {
+        width: 50%;
+    }
+    #weather-channel {
+        height: 460px;
+    }
+    .weather-container {
+        flex-wrap: wrap;
+    }
+    .weather-channel-header {
+        font-size: 20px;
+        text-align: center;
+    }
+    #promo-content {
+        margin: 0;
+        padding-top: 15px;
+    }
+    .promo-img {
+        height: 330px;
+    }
+    .img-content div:first-child {
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+        padding-bottom: 15px;
+    }
+    .img-content {
+        padding: 70px 100px;
+    }
+    #getQuoteContainer {
+        margin: 0;
+    }
+    #quote-form {
+        margin: 15px 7%;
+    }
+    footer{
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    footer .footer-content {
+        width: 100%;
+        padding: 20px 35px
+    }
+    footer .footer-content h1 {
+        font-size: 22px;
+    }
+    footer .footer-content ul {
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .disclaimer-content {
+        width: 100%;
+    }
+    .disclaimer-content > p {
+        width: 100%;
+        padding: 20px 35px;
+        font-size: 16px;
+    }
+    .disclaimer-content h1 {
+        font-size: 24px;
+        padding: 0px 35px;
+    }
+    
+}
